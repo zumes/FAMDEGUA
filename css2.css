@@ -1,0 +1,187 @@
+
+
+ 	
+
+*{
+	box-sizing: border-box;
+	font-family: calibri;
+}
+/**Header **/
+
+
+header nav {
+	background:#3498db;
+	margin-bottom:10px;
+}
+ 
+header nav ul {
+	list-style: none;
+	overflow: hidden;
+}
+ 
+header nav ul li {
+	float: left;
+}
+ 
+header nav ul li a {
+	display: block;
+	padding:20px;
+	color:#fff;
+	text-decoration: none;
+}
+ 
+header nav ul li a:hover {
+	background:#2980b9;
+}
+ 
+ 
+/* --- Clase que agregaremos cuando el usuario haga scroll --- */
+.menu-fixed {
+	position:fixed;
+	z-index:1000;
+	top:0;
+
+	width:100%;
+	left: 0;
+	box-shadow:0px 4px 3px rgba(0,0,0,.5);
+}
+/*END HEADER*/
+
+
+.casos{
+	width: 50%;
+	position:absolute;
+	bottom: ;
+	right: ;
+	left: 48%;
+	top:220% ;
+	border: 1px solid black;
+	background-image: url(imagenes/img3.jpg);
+	background-repeat: no-repeat;
+ 	 background-position: 0px;
+ 	 background-size: 100%;
+ 	 background-attachment: fixed;
+ 	 color:white;
+
+}
+
+
+
+
+p
+{
+font-color:#000008;
+font-size: 500%;
+padding:8px;
+margin: 10px;
+padding-top: 8px;
+
+font-size: 16px;
+
+}
+
+body{
+	font-color:#000008;
+	background: #0E6265;
+	background-image: url(imagenes/img2.png);
+	background-repeat: no-repeat;
+	background-position: 350px 300px;
+}
+
+.p1 {
+	width: 40%;
+	left: 40%;
+	font-color:#000008;
+	background-image: url(imagenes/img3.jpg);
+	background-repeat: no-repeat;
+ 	 background-position: 0px;
+ 	 background-size: 100%;
+ 	 background-attachment: fixed;
+}
+.p2 {
+	width: 40%;
+	left: 10%;
+font-color:#000008;
+	background-image: url(imagenes/img3.jpg);
+	background-repeat: no-repeat;
+ 	 background-position: 0px;
+ 	 background-size: 100%;
+ 	 background-attachment: fixed;
+}
+.p3 {
+	width: 40%;
+	left: 10%;
+	font-color:#000008;
+	background-image: url(imagenes/img3.jpg);
+	background-repeat: no-repeat;
+ 	 background-position: 0px;
+ 	 background-size: 100%;
+ 	 background-attachment: fixed;
+}
+.p4 {
+	width: 40%;
+	left: 10%;
+	font-color:#000008;
+	background-image: url(imagenes/img3.jpg);
+	background-repeat: no-repeat;
+ 	 background-position: 0px;
+ 	 background-size: 100%;
+ 	 background-attachment: fixed;
+}
+
+
+.p5 {
+	width: 40%;
+	left: 10%;
+	color:#000008;
+	background-image: url(imagenes/img3.jpg);
+	background-repeat: no-repeat;
+ 	 background-position: 0px;
+ 	 background-size: 100%;
+ 	 background-attachment: fixed;
+}
+
+
+.imagen{
+	
+	position:absolute;
+	bottom: ;
+	right: ;
+	left: 50%;
+	top:140% ;
+
+
+}
+.image2{
+	
+	position:absolute;
+	bottom: ;
+	right: ;
+	left: 50%;
+	top:240% ;
+	 width:100%;
+	  height:10%;
+
+	}
+.titulo{
+	
+	position:absolute;
+	bottom: ;
+	right: ;
+	left: ;
+	top:115% ;
+	background-image: url(imagenes/img3.jpg);
+	background-repeat: no-repeat;
+ 	 background-position: 0px;
+ 	 background-size: 100%;
+ 	 background-attachment: fixed;
+
+}
+.titulocasos{
+	color: #61637D
+}
+@media screen (max-width: 800px){
+	body{
+background: #5353D3;
+	}
+}

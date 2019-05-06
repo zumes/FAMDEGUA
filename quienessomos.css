@@ -1,0 +1,17 @@
+.titulo{
+	background-color: white;
+	width: 50%;
+	font-size: 250% 
+}
+body{
+	background-image: url(imagenes/somos.jpg);
+	background-repeat: no-repeat;
+ 	 background-position: 0px;
+ 	 background-size: 100%;
+ 	 background-attachment: fixed;
+}
+.p{
+	font-size: 500%;
+	background-color: white;
+	color: black;
+}

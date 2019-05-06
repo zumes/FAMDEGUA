@@ -1,0 +1,13 @@
+.titulo{
+	background-color: white;
+}
+body{
+	background-image: url(imagenes/baselegal.jpg);
+	background-repeat: no-repeat;
+ 	 background-position: 0px;
+ 	 background-size: 100%;
+ 	 background-attachment: fixed;
+}
+.p{
+	background-color: #9898BB
+}
